@@ -1,0 +1,19 @@
+.register {
+    display: grid;
+    grid-template-areas:
+    "register some"
+    "register some"
+    "register some"
+    "register some";
+}
+
+.register form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+
+    grid-area: register;
+    padding: 20px;
+}
